@@ -1,0 +1,188 @@
+
+.contact-us {
+    width: 80%;
+    padding-bottom: 50px;
+    margin: auto;
+  }
+  
+  .contact-col {
+    margin-bottom: 30px;
+  }
+  
+  .contact-col div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 21px;
+    padding: 30px;
+  }
+
+  .row-col {
+    display: flex;
+    gap: 74px;
+  }
+
+  .cform {
+    width: 715px;
+  }
+  
+  .contact-col div .fa {
+    font-size: 28px;
+    margin: 10px;
+    margin-right: 30px;
+  }
+  
+  .contact-col div p {
+    padding: 0;
+    color: #555;
+}
+  
+  .bxs .em {
+      word-break: break-all;
+      margin-left: 30px;
+  }
+  
+  .contact-col div h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: var(--text-shadow-blue);
+    font-weight: 400;
+  }
+  
+  .dark-mode .contact-col div h5{
+    color: #373434;;
+  }
+  
+  .contact-col form{
+    margin: 34px;
+  }
+  
+  .contact-col fieldset {
+    margin: 16px 0;
+    padding: 4px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+  
+  fieldset:hover {
+      border: 2px solid rgba(27, 115, 231, 0.92);
+  }
+  
+  .contact-col fieldset .icons{
+      color:#fff;
+    font-size: 1rem;
+  }
+  
+  .dark-mode .contact-col fieldset .icons{
+      color:#000;
+  }
+  
+  
+  fieldset:hover .icons {
+      color: rgb(20, 180, 120);
+  }
+
+  legend {
+    color: #000;
+    padding: 0 14px;
+    font-size: 1rem;
+  }
+  
+  .dark-mode fieldset:hover .icons {
+      color: rgb(20, 121, 179) !important;
+  }
+  
+  fieldset:hover legend {
+      color: rgb(22, 122, 230) !important;
+  }
+  
+  .contact-col input, .contact-col textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+  
+  .contact-col input,
+  .contact-col button {
+    background: transparent;
+  }
+  
+  #redbtn {
+    padding: 10px 15px;
+    color: #0072ff;
+    border: 2px solid #2272e2;
+    text-transform: uppercase !important;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    transition: all .3s ease;
+}
+  
+  #redbtn:hover{
+    color: #ffff;
+    background-color: #1984db;
+  }
+  
+  .inp-b{
+    border-radius: 5px;
+    color: #fff;
+    transition: all 0.1s ease;
+  }
+  
+  .bxs {
+    padding: 19px 25px;
+    border-radius: 13px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  }
+  
+  .get-in-toch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 67px;
+    position: relative;
+  }
+  
+  /* .get-in-toch::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    bottom: 0;
+    right: -15px;
+    left: 0;
+    background: linear-gradient(-181deg, #084554cf 11%, #ffffff00 0%);
+    z-index: -1;
+  } */
+  
+  .get-in-toch::after {
+    content: "";
+    position: absolute;
+    top: -20px;
+    bottom: 46px;
+    right: -15px;
+    left: 0;
+    background: linear-gradient(0deg, #185aa6bc 3%, #fff0 0%);
+    z-index: 1;
+  }
+  
+  .get-in-toch h3, .get-in-toch p{
+    color: var(--text-shadow-blue);
+    text-align: center;
+    position: relative;
+  }
+  
+  .get-in-toch h3{
+    position: relative;
+  }
+  
+  .get-in-toch::before {
+      content: '';
+      width: 47px;
+      height: 2px;
+      background: linear-gradient(44deg, transparent, #114d8dd2);
+      position: absolute;
+      top: -6px;
+      /* right: 149px; */
+      left: 50%;
+      transform: translateX(-50%);
+  }

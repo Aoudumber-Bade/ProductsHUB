@@ -1,0 +1,23 @@
+
+
+
+#blog-home {
+    background: linear-gradient(rgba(9, 5, 54, 0.614), rgba(5, 4, 46, 0.683)),
+      url("./images/bg6.jpg");
+    width: 1549px;
+    height: 47vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+  
+  #blog-home h2 {
+    color: #fff;
+    font: 2.2rem;
+    letter-spacing: 1px;
+  }

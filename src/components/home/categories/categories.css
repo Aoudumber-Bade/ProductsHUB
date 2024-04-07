@@ -1,0 +1,231 @@
+
+/* ------------------ Website Content -------------------- */
+
+.categories-container {
+  padding-top: 32px;
+}
+
+.bg {
+  font-size: 2.1rem;
+  text-transform: uppercase;
+  border: 2px solid #2272e2;
+  display: inline-block;
+  color: #2272e2;
+  border-radius: 25px;
+  padding: 10px 57px;
+  transition: all 0.4s ease-in-out;
+}
+  
+  /* .bg:hover {
+    background-color: #2272e2;
+    color: #fff;
+    padding: 10px 57px;
+    box-shadow: 0px 0px 7px rgba(2, 2, 2, 0.357), 0px 0px 45px #0a0a0a44;
+  } */
+
+  .content-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+    margin-top: 72px;
+  }
+
+  .content-box p {
+    color:#555;
+    font-weight:500;
+  }
+  
+  .categories {
+    width: 100%;
+    height: 110vh;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  .categories h1 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .categories p {
+    color: #777;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 20px;
+    margin-top: -20px;
+  }
+  
+  .rowws {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+    width: 100%;
+}
+  
+  .row1 {
+    /* transform: translateX(-150%); */
+    /* animation: row1 2s ease-in-out forwards; */
+  }
+/*   
+  @keyframes row1 {
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  
+  .row2 {
+    transform: translateX(150%);
+    animation: row2 2s ease-in-out forwards;
+  }
+  
+  @keyframes row2 {
+    100% {
+      transform: translateX(0%);
+    }
+  }
+   */
+   .cat-col {
+    width: 327px;
+    height: 209px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transform: 0.5s;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+}
+  
+  .cat-col::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0000009f;
+    z-index: -1;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .cat-col:hover::after{
+    opacity: 1;
+  }
+  
+  .cat-content{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    z-index: 10;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .cat-col:hover .cat-content{
+    top: 50%;
+    opacity: 1;
+  }
+  
+  
+  .cat-col h3 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 1rem;
+    /* margin: 10px; */
+    color: #fff;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 4px;
+    /* transition: 0.3s ease; */
+}
+  
+  .cat-col h3:hover {
+    color: #e24b22;
+    border-width: 20%;
+  }
+  
+  .cat-col {
+    font-size: 20px;
+  }
+  
+  .cat-col:hover {
+    box-shadow: -2px 7px 12px 0px rgba(0, 0, 0, 0.367);
+    font-size: large;
+    transform: scale(1.07);
+  }
+  
+  /* ---------- Categories Images ---------- */
+  
+  .img1 {
+    background: linear-gradient(rgba(9, 5, 54, 0.1), rgba(5, 4, 46, 0.6)),
+      url("/images/smartphonesbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: x-large;
+    border-start-start-radius: 80px 80px;
+  }
+  .img2 {
+    background: linear-gradient(rgba(9, 5, 54, 0.1), rgba(5, 4, 46, 0.6)),
+      url("/images/laptopsbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: x-large;
+  }
+  .img3 {
+    background: linear-gradient(rgba(9, 5, 54, 0.1), rgba(5, 4, 46, 0.6)),
+      url("/images/smarttv.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: x-large;
+    
+  }
+  .img4 {
+    background: linear-gradient(rgba(9, 5, 54, 0.1), rgba(5, 4, 46, 0.6)),
+      url("/images/dcamera.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: x-large;
+    border-top-right-radius: 80px 80px;
+  }
+  .img5 {
+    background: linear-gradient(rgba(9, 5, 54, 0.1), rgba(5, 4, 46, 0.6)),
+      url("/images/wdevices.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: x-large;
+    border-bottom-left-radius: 80px 80px;
+}
+  .img6 {
+    background: linear-gradient(rgba(9, 5, 54, 0.1), rgba(5, 4, 46, 0.6)),
+      url("/images/shome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: x-large;
+  }
+  .img7 {
+    background: linear-gradient(rgba(9, 5, 54, 0.1), rgba(5, 4, 46, 0.6)),
+      url("/images/gconsole.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: x-large;
+  }
+  .img8 {
+    background: linear-gradient(rgba(9, 5, 54, 0.1), rgba(5, 4, 46, 0.6)),
+      url("/images/adevices.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: x-large;
+    border-end-end-radius: 80px 80px;
+  }

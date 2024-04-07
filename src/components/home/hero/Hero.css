@@ -1,0 +1,26 @@
+
+.hero-container {
+    background: linear-gradient(rgba(9, 5, 54, 0.1), rgba(5, 4, 46, 0.9)),
+      url("/images/edtz1.png");
+    background-position: center center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+}
+  
+  .header-content {
+    position: absolute;
+    top: 68%;
+    left: 50.9%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .header {
+    height: 95vh;
+    width: 100%;
+    background-color: #edf2fc;
+    font-family: "Times New Roman", Times, serif;
+    position: relative;
+  }
